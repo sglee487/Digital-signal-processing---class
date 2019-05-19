@@ -1,0 +1,2 @@
+ n1 = [-5:15]; x1 = 3*impseq(-2,-5,15) + 2*impseq(0,-5,15) -impseq(3,-5,15) + 5*impseq(7,-5,15);
+subplot(4,2,1); stem(n1,x1); title('2.1.1')

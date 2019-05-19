@@ -1,0 +1,8 @@
+[x,n] = sigfold(x,n)
+[x,n] = sigshift(x,n,k) % x(n-k)
+x = fliplr(x)
+[y,n] = sigadd(x1,n1,x2,n2)
+[y,n] = sigmult(x1,n1,x2,n2)
+[x,n] = impseq(n0,n1,n2) % x(n) = delta(n-n0) n1:n2
+[x,n] = stepseq(n0,n1,n2) % x(n) = u(n-n0)
+normrnd(zeros(1,10),10) % 평균 0에서 분산10 가우스함수 10개 array

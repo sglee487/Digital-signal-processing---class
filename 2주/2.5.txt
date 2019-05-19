@@ -1,0 +1,25 @@
+GNU Octave, version 4.2.1
+Copyright (C) 2017 John W. Eaton and others.
+This is free software; see the source code for copying conditions.
+There is ABSOLUTELY NO WARRANTY; not even for MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  For details, type 'warranty'.
+
+Octave was configured for "x86_64-w64-mingw32".
+
+Additional information about Octave is available at http://www.octave.org.
+
+Please contribute if you find this software useful.
+For more information, visit http://www.octave.org/get-involved.html
+
+Read http://www.octave.org/bugs.html to learn how to submit bug reports.
+For information about changes from previous versions, type 'news'.
+
+>> x1 = [-2:2]
+x1 =
+
+  -2  -1   0   1   2
+
+>> xtilde = x1' * ones(1,5); xtilde = (xtilde(:))'; n = [-12:12];
+>> subplot(2,2,1); stem(n,xtilde); title('2.5.1')
+>> xlabel('n'); ylabel('x(n)');
+>> n2 = 0:20; x2=exp(0.1*n2).*(stepseq(0,0,20)-stepseq(20,0,20));
